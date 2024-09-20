@@ -11,7 +11,7 @@ Cases
 1. Start the program.
 2. Create separate files for each given program.
 3. Write simple program for each construct.
-4.  the program with possible test cases.
+4.  the program with possible test cases.   
 5. Stop the program.
 ### Program:
 
