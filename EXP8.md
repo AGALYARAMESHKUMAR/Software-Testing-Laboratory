@@ -5,8 +5,10 @@
 ### AIM: 
 For Banking Applicationsystem study its system specifications and generate test cases.
 ### The characteristics of a Banking application are as follows: 
+```
    □Multi-tier functionality to support thousands of concurrent user sessions
-   □Large scale Integration, typically a banking application integrates with numerous other                applications such as Bill Pay utility and Trading accounts
+   □Large scale Integration, typically a banking application integrates with numerous other
+    applications such as Bill Pay utility and Trading accounts
    □Complex Business workflows
    □Real Time and Batch processing
    □High rate of Transactions per seconds
@@ -15,6 +17,7 @@ For Banking Applicationsystem study its system specifications and generate test 
    □Strong Auditing to troubleshoot customer issues
    □Massive storage system
    □Disaster Management.
+```
 
 
 ### Requirement Gathering: 
