@@ -5,20 +5,17 @@
 ### AIM: 
 For Banking Applicationsystem study its system specifications and generate test cases.
 ### The characteristics of a Banking application are as follows: 
-```
-   □Multi-tier functionality to support thousands of concurrent user sessions
-   □Large scale Integration, typically a banking application integrates with numerous other
-    applications such as Bill Pay utility and Trading accounts
-   □Complex Business workflows
-   □Real Time and Batch processing
-   □High rate of Transactions per seconds
-   □Secure Transactions
-   □Robust Reporting section to keep track of day-to-day transactions
-   □Strong Auditing to troubleshoot customer issues
-   □Massive storage system
-   □Disaster Management.
-```
-
+   
+   - Multi-tier functionality to support thousands of concurrent user sessions
+   - Large scale Integration, typically a banking application integrates with numerous other applications such as Bill Pay utility and Trading accounts
+   - Complex Business workflows
+   - Real Time and Batch processing
+   - High rate of Transactions per seconds
+   - Secure Transactions
+   - Robust Reporting section to keep track of day-to-day transactions
+   - Strong Auditing to troubleshoot customer issues
+   - Massive storage system
+   - Disaster Management.
 
 ### Requirement Gathering: 
 Requirement gathering phase involves documentation of requirements either as Functional Specifications or Use Cases. Requirements are gathered as per customer needs and documented by Banking Experts or Business Analyst. To write requirements on more than one subject expert are involved as banking itself has multiple sub domains and one full fledge banking application will be the integration of all. For Example: A banking application may have separate modules for Transfers, Credit Cards, Reports, Loan Accounts, Bill Payments, Trading Etc.
@@ -45,13 +42,13 @@ Test Case Execution could be either manual or automatic involving tools like QC,
 
 ### Database Testing: 
 Banking Application involves complex transaction which are performed both at UI level and Database level, Therefore Database testing is as important as functional testing. Database in itself is an entirely separate layer hence it is carried out by database specialists and it uses techniques like
-    □Data loading
-    □Database Migration
-    □Testing DB Schema and Data types
-    □Rules Testing
-    □Testing Stored Procedures and Functions
-    □Testing Triggers
-    □Data Integrity
+    1.Data loading
+    2.Database Migration
+    3.Testing DB Schema and Data types
+    4.Rules Testing
+    5.Testing Stored Procedures and Functions
+    6.Testing Triggers
+    7.Data Integrity
 
 
 ### Security Testing: 
@@ -75,40 +72,41 @@ RUP widely involves IBM Rational tools.
 
 ### Test cases for opening bank account:
 # 1.Input parameters checking
-   -Name
-   -Date of Birth
-   -Photo
-   -Address Proof
-   -Identity proof
-   -Introducers (if applicable)
-   -PAN card
-   -Initial deposit
-   -Whether checkbook / ATM card / Online banking facilities are needed or not
-   -Customer signature 
+   - Name
+   - Date of Birth
+   - Photo
+   - Address Proof
+   - Identity proof
+   - Introducers (if applicable)
+   - PAN card
+   - Initial deposit
+   - Whether checkbook / ATM card / Online banking facilities are needed or not
+   - Customer signature 
  
 
 ### Type of account: 
 
-    -Savings account
-    -Salary account
-    -Joint account
-    -Current account
-    -Secondary account
-    -RD account
-    -Account for a company
+    - Savings account
+    - Salary account
+    - Joint account
+    - Current account
+    - Secondary account
+    - RD account
+    - Account for a company
 
 ### Test cases: 
-   -Checking mandatory input parameters
-   -Checking optional input parameters
-   -Check whether able to create account entity.
-   -Check whether you are able to deposit an amount in the newly created account (and thus updating       the balance)
-   -Check whether you are able to withdraw an amount in the newly created account (after deposit)         (and thus updating the balance)
-   -Check whether company name and its pan number and other details are provided in case ofsalary
-    account
-   -Check whether primary account number is provided in case of secondary account
-   -Check whether company details are provided in cases of company's current account
-   -Check whether proofs for joint account is provided in case of joint account
-   -Check whether you are able deposit an account in the name of either of the person in a joint
+   - Checking mandatory input parameters
+   - Checking optional input parameters
+   - Check whether able to create account entity.
+   - Check whether you are able to deposit an amount in the newly created account (and thus updating the balance)
+   - Check whether you are able to withdraw an amount in the newly created account (after deposit)
+     (and thus updating the balance)
+   - Check whether company name and its pan number and other details are provided in case ofsalary
+     account
+   - Check whether primary account number is provided in case of secondary account
+   - Check whether company details are provided in cases of company's current account
+   - Check whether proofs for joint account is provided in case of joint account
+   - Check whether you are able deposit an account in the name of either of the person in a joint
 
 
 
